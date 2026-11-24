@@ -1,0 +1,29 @@
+{
+  "baseFee": 1500,
+  "perM3": 450,
+  "kmTiers": [
+    { "upToKm": 10, "pricePerKm": 40 },
+    { "upToKm": 30, "pricePerKm": 30 },
+    { "upToKm": null, "pricePerKm": 22 }
+  ],
+  "weatherCoef": {
+    "clear": 1,
+    "rain": 1.1,
+    "snow": 1.2,
+    "frost": 1.15
+  },
+  "ratingCoef": {
+    "high": 1.05,
+    "mid": 1,
+    "low": 0.95
+  },
+  "loadCoef": {
+    "low": 1,
+    "mid": 1.1,
+    "high": 1.2
+  },
+  "blockThreshold": 3.5,
+  "discountEvery": 10,
+  "discountPct": 5,
+  "weather": "clear"
+}

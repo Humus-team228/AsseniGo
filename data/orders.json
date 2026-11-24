@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "ord-1001",
+    "clientId": "cl-1",
+    "driverId": "drv-1",
+    "address": "ул. Тверская, 12",
+    "lat": 55.757,
+    "lng": 37.61,
+    "volumeM3": 4,
+    "status": "completed",
+    "price": 3933,
+    "priceBreakdown": {
+      "base": 3300,
+      "km": 120,
+      "weather": 0,
+      "rating": 171,
+      "load": 342,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-09-01T06:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-01T06:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-01T06:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-01T06:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-01T06:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-01T06:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-01T07:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1002",
+    "clientId": "cl-1",
+    "driverId": "drv-2",
+    "address": "Ленинский пр-т, 42",
+    "lat": 55.707,
+    "lng": 37.583,
+    "volumeM3": 2,
+    "status": "completed",
+    "price": 3220,
+    "priceBreakdown": {
+      "base": 2400,
+      "km": 400,
+      "weather": 280,
+      "rating": 140,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-09-03T07:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-03T07:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-03T07:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-03T07:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-03T07:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-03T07:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-03T08:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1003",
+    "clientId": "cl-1",
+    "driverId": "drv-3",
+    "address": "ул. Профсоюзная, 86",
+    "lat": 55.67,
+    "lng": 37.562,
+    "volumeM3": 6,
+    "status": "completed",
+    "price": 5051,
+    "priceBreakdown": {
+      "base": 4200,
+      "km": 610,
+      "weather": 0,
+      "rating": 241,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 4,
+    "createdAt": "2026-09-05T08:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-05T08:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-05T08:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-05T08:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-05T08:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-05T08:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-05T09:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1004",
+    "clientId": "cl-1",
+    "driverId": "drv-4",
+    "address": "Кутузовский пр-т, 30",
+    "lat": 55.74,
+    "lng": 37.52,
+    "volumeM3": 4,
+    "status": "completed",
+    "price": 4944,
+    "priceBreakdown": {
+      "base": 3300,
+      "km": 820,
+      "weather": 824,
+      "rating": 0,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-09-07T09:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-07T09:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-07T09:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-07T09:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-07T09:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-07T09:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-07T10:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1005",
+    "clientId": "cl-1",
+    "driverId": "drv-5",
+    "address": "ул. Народного Ополчения, 15",
+    "lat": 55.78,
+    "lng": 37.49,
+    "volumeM3": 8,
+    "status": "completed",
+    "price": 5874,
+    "priceBreakdown": {
+      "base": 5100,
+      "km": 240,
+      "weather": 801,
+      "rating": -267,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 3,
+    "createdAt": "2026-09-09T10:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-09T10:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-09T10:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-09T10:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-09T10:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-09T10:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-09T11:20:00.000Z"
+      }
+    ],
+    "supportNote": "Клиент просил позвонить за 30 минут."
+  },
+  {
+    "id": "ord-1006",
+    "clientId": "cl-1",
+    "driverId": "drv-6",
+    "address": "Дмитровское ш., 45",
+    "lat": 55.82,
+    "lng": 37.57,
+    "volumeM3": 10,
+    "status": "completed",
+    "price": 6165,
+    "priceBreakdown": {
+      "base": 6000,
+      "km": 490,
+      "weather": 0,
+      "rating": -325,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 4,
+    "createdAt": "2026-09-11T06:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-11T06:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-11T06:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-11T06:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-11T06:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-11T06:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-11T07:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1007",
+    "clientId": "cl-1",
+    "driverId": "drv-7",
+    "address": "ул. Декабристов, 10",
+    "lat": 55.86,
+    "lng": 37.6,
+    "volumeM3": 4,
+    "status": "completed",
+    "price": 4600,
+    "priceBreakdown": {
+      "base": 3300,
+      "km": 700,
+      "weather": 400,
+      "rating": 200,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-09-13T07:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-13T07:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-13T07:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-13T07:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-13T07:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-13T07:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-13T08:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1008",
+    "clientId": "cl-1",
+    "driverId": "drv-1",
+    "address": "Ярославское ш., 22",
+    "lat": 55.85,
+    "lng": 37.68,
+    "volumeM3": 6,
+    "status": "completed",
+    "price": 5366,
+    "priceBreakdown": {
+      "base": 4200,
+      "km": 910,
+      "weather": 0,
+      "rating": 256,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-09-15T08:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-15T08:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-15T08:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-15T08:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-15T08:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-15T08:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-15T09:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1009",
+    "clientId": "cl-1",
+    "driverId": "drv-2",
+    "address": "ул. Свободы, 50",
+    "lat": 55.83,
+    "lng": 37.45,
+    "volumeM3": 2,
+    "status": "completed",
+    "price": 3450,
+    "priceBreakdown": {
+      "base": 2400,
+      "km": 360,
+      "weather": 552,
+      "rating": 138,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 4,
+    "createdAt": "2026-09-17T09:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-17T09:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-17T09:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-17T09:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-17T09:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-17T09:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-17T10:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1010",
+    "clientId": "cl-1",
+    "driverId": "drv-3",
+    "address": "Рязанский пр-т, 24",
+    "lat": 55.73,
+    "lng": 37.75,
+    "volumeM3": 8,
+    "status": "completed",
+    "price": 7015,
+    "priceBreakdown": {
+      "base": 5100,
+      "km": 580,
+      "weather": 852,
+      "rating": 284,
+      "load": 568,
+      "discount": 369
+    },
+    "discountPct": 5,
+    "score": 5,
+    "createdAt": "2026-09-19T10:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-19T10:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-19T10:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-19T10:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-19T10:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-19T10:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-19T11:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1011",
+    "clientId": "cl-1",
+    "driverId": "drv-4",
+    "address": "ул. Люблинская, 60",
+    "lat": 55.67,
+    "lng": 37.75,
+    "volumeM3": 4,
+    "status": "completed",
+    "price": 4090,
+    "priceBreakdown": {
+      "base": 3300,
+      "km": 790,
+      "weather": 0,
+      "rating": 0,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-09-21T06:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-21T06:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-21T06:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-21T06:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-21T06:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-21T06:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-21T07:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1012",
+    "clientId": "cl-1",
+    "driverId": "drv-5",
+    "address": "Каширское ш., 40",
+    "lat": 55.65,
+    "lng": 37.63,
+    "volumeM3": 2,
+    "status": "completed",
+    "price": 2730,
+    "priceBreakdown": {
+      "base": 2400,
+      "km": 200,
+      "weather": 260,
+      "rating": -130,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-09-23T07:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-23T07:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-23T07:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-23T07:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-23T07:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-23T07:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-23T08:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1013",
+    "clientId": "cl-2",
+    "driverId": "drv-6",
+    "address": "Варшавское ш., 100",
+    "lat": 55.63,
+    "lng": 37.61,
+    "volumeM3": 6,
+    "status": "completed",
+    "price": 4427,
+    "priceBreakdown": {
+      "base": 4200,
+      "km": 460,
+      "weather": 0,
+      "rating": -233,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 4,
+    "createdAt": "2026-09-25T08:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-25T08:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-25T08:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-25T08:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-25T08:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-25T08:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-25T09:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1014",
+    "clientId": "cl-2",
+    "driverId": "drv-7",
+    "address": "ул. Миклухо-Маклая, 30",
+    "lat": 55.65,
+    "lng": 37.5,
+    "volumeM3": 4,
+    "status": "completed",
+    "price": 4963,
+    "priceBreakdown": {
+      "base": 3300,
+      "km": 670,
+      "weather": 794,
+      "rating": 199,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-09-27T09:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-27T09:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-27T09:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-27T09:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-27T09:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-27T09:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-27T10:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1015",
+    "clientId": "cl-2",
+    "driverId": "drv-1",
+    "address": "Ломоносовский пр-т, 20",
+    "lat": 55.69,
+    "lng": 37.53,
+    "volumeM3": 8,
+    "status": "completed",
+    "price": 7176,
+    "priceBreakdown": {
+      "base": 5100,
+      "km": 880,
+      "weather": 897,
+      "rating": 299,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 3,
+    "createdAt": "2026-09-29T10:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-09-29T10:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-09-29T10:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-09-29T10:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-09-29T10:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-09-29T10:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-09-29T11:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1016",
+    "clientId": "cl-2",
+    "driverId": "drv-2",
+    "address": "ул. Кибальчича, 8",
+    "lat": 55.8,
+    "lng": 37.63,
+    "volumeM3": 10,
+    "status": "completed",
+    "price": 6636,
+    "priceBreakdown": {
+      "base": 6000,
+      "km": 320,
+      "weather": 0,
+      "rating": 316,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 4,
+    "createdAt": "2026-10-01T06:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-01T06:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-01T06:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-01T06:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-01T06:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-01T06:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-01T07:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1017",
+    "clientId": "cl-2",
+    "driverId": "drv-3",
+    "address": "Щёлковское ш., 15",
+    "lat": 55.81,
+    "lng": 37.78,
+    "volumeM3": 4,
+    "status": "completed",
+    "price": 4428,
+    "priceBreakdown": {
+      "base": 3300,
+      "km": 550,
+      "weather": 385,
+      "rating": 193,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-10-03T07:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-03T07:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-03T07:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-03T07:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-03T07:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-03T07:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-03T08:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1018",
+    "clientId": "cl-2",
+    "driverId": "drv-4",
+    "address": "ул. Борисовские Пруды, 20",
+    "lat": 55.64,
+    "lng": 37.73,
+    "volumeM3": 6,
+    "status": "completed",
+    "price": 4960,
+    "priceBreakdown": {
+      "base": 4200,
+      "km": 760,
+      "weather": 0,
+      "rating": 0,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-10-05T08:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-05T08:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-05T08:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-05T08:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-05T08:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-05T08:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-05T09:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1019",
+    "clientId": "cl-3",
+    "driverId": "drv-5",
+    "address": "ул. Тверская, 12",
+    "lat": 55.757,
+    "lng": 37.61,
+    "volumeM3": 2,
+    "status": "completed",
+    "price": 3200,
+    "priceBreakdown": {
+      "base": 2400,
+      "km": 160,
+      "weather": 512,
+      "rating": -128,
+      "load": 256,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 4,
+    "createdAt": "2026-10-07T09:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-07T09:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-07T09:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-07T09:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-07T09:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-07T09:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-07T10:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1020",
+    "clientId": "cl-3",
+    "driverId": "drv-6",
+    "address": "Ленинский пр-т, 42",
+    "lat": 55.707,
+    "lng": 37.583,
+    "volumeM3": 8,
+    "status": "completed",
+    "price": 6082,
+    "priceBreakdown": {
+      "base": 5100,
+      "km": 430,
+      "weather": 829,
+      "rating": -277,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-10-09T10:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-09T10:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-09T10:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-09T10:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-09T10:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-09T10:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-09T11:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1021",
+    "clientId": "cl-3",
+    "driverId": "drv-7",
+    "address": "ул. Профсоюзная, 86",
+    "lat": 55.67,
+    "lng": 37.562,
+    "volumeM3": 4,
+    "status": "completed",
+    "price": 4137,
+    "priceBreakdown": {
+      "base": 3300,
+      "km": 640,
+      "weather": 0,
+      "rating": 197,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-10-11T06:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-11T06:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-11T06:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-11T06:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-11T06:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-11T06:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-11T07:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1022",
+    "clientId": "cl-3",
+    "driverId": "drv-1",
+    "address": "Кутузовский пр-т, 30",
+    "lat": 55.74,
+    "lng": 37.52,
+    "volumeM3": 2,
+    "status": "completed",
+    "price": 3738,
+    "priceBreakdown": {
+      "base": 2400,
+      "km": 850,
+      "weather": 325,
+      "rating": 163,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-10-13T07:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-13T07:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-13T07:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-13T07:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-13T07:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-13T07:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-13T08:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1023",
+    "clientId": "cl-4",
+    "driverId": "drv-2",
+    "address": "ул. Народного Ополчения, 15",
+    "lat": 55.78,
+    "lng": 37.49,
+    "volumeM3": 6,
+    "status": "completed",
+    "price": 4704,
+    "priceBreakdown": {
+      "base": 4200,
+      "km": 280,
+      "weather": 0,
+      "rating": 224,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 4,
+    "createdAt": "2026-10-15T08:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-15T08:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-15T08:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-15T08:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-15T08:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-15T08:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-15T09:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1024",
+    "clientId": "cl-4",
+    "driverId": "drv-3",
+    "address": "Дмитровское ш., 45",
+    "lat": 55.82,
+    "lng": 37.57,
+    "volumeM3": 4,
+    "status": "completed",
+    "price": 4775,
+    "priceBreakdown": {
+      "base": 3300,
+      "km": 520,
+      "weather": 764,
+      "rating": 191,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-10-17T09:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-17T09:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-17T09:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-17T09:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-17T09:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-17T09:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-17T10:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1025",
+    "clientId": "cl-4",
+    "driverId": "drv-4",
+    "address": "ул. Декабристов, 10",
+    "lat": 55.86,
+    "lng": 37.6,
+    "volumeM3": 8,
+    "status": "completed",
+    "price": 6704,
+    "priceBreakdown": {
+      "base": 5100,
+      "km": 730,
+      "weather": 874,
+      "rating": 0,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 3,
+    "createdAt": "2026-10-19T10:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-19T10:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-19T10:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-19T10:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-19T10:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-19T10:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-19T11:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1026",
+    "clientId": "cl-4",
+    "driverId": "drv-5",
+    "address": "Ярославское ш., 22",
+    "lat": 55.85,
+    "lng": 37.68,
+    "volumeM3": 10,
+    "status": "completed",
+    "price": 5814,
+    "priceBreakdown": {
+      "base": 6000,
+      "km": 120,
+      "weather": 0,
+      "rating": -306,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 4,
+    "createdAt": "2026-10-21T06:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-21T06:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-21T06:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-21T06:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-21T06:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-21T06:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-21T07:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1027",
+    "clientId": "cl-5",
+    "driverId": "drv-6",
+    "address": "ул. Свободы, 50",
+    "lat": 55.83,
+    "lng": 37.45,
+    "volumeM3": 4,
+    "status": "completed",
+    "price": 3885,
+    "priceBreakdown": {
+      "base": 3300,
+      "km": 400,
+      "weather": 370,
+      "rating": -185,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-10-23T07:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-23T07:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-23T07:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-23T07:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-23T07:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-23T07:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-23T08:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1028",
+    "clientId": "cl-5",
+    "driverId": "drv-7",
+    "address": "Рязанский пр-т, 24",
+    "lat": 55.73,
+    "lng": 37.75,
+    "volumeM3": 6,
+    "status": "completed",
+    "price": 5532,
+    "priceBreakdown": {
+      "base": 4200,
+      "km": 610,
+      "weather": 0,
+      "rating": 241,
+      "load": 481,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-10-25T08:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-25T08:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-25T08:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-25T08:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-25T08:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-25T08:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-25T09:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1029",
+    "clientId": "cl-5",
+    "driverId": "drv-1",
+    "address": "ул. Люблинская, 60",
+    "lat": 55.67,
+    "lng": 37.75,
+    "volumeM3": 2,
+    "status": "completed",
+    "price": 4025,
+    "priceBreakdown": {
+      "base": 2400,
+      "km": 820,
+      "weather": 644,
+      "rating": 161,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 4,
+    "createdAt": "2026-10-27T09:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-27T09:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-27T09:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-27T09:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-27T09:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-27T09:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-27T10:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1030",
+    "clientId": "cl-6",
+    "driverId": "drv-2",
+    "address": "Каширское ш., 40",
+    "lat": 55.65,
+    "lng": 37.63,
+    "volumeM3": 8,
+    "status": "completed",
+    "price": 6408,
+    "priceBreakdown": {
+      "base": 5100,
+      "km": 240,
+      "weather": 801,
+      "rating": 267,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-10-29T10:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-29T10:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-29T10:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-29T10:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-29T10:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-29T10:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-29T11:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1031",
+    "clientId": "cl-6",
+    "driverId": "drv-3",
+    "address": "Варшавское ш., 100",
+    "lat": 55.63,
+    "lng": 37.61,
+    "volumeM3": 4,
+    "status": "completed",
+    "price": 3980,
+    "priceBreakdown": {
+      "base": 3300,
+      "km": 490,
+      "weather": 0,
+      "rating": 190,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-10-31T06:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-10-31T06:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-10-31T06:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-10-31T06:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-10-31T06:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-10-31T06:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-10-31T07:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  },
+  {
+    "id": "ord-1032",
+    "clientId": "cl-6",
+    "driverId": "drv-4",
+    "address": "ул. Миклухо-Маклая, 30",
+    "lat": 55.65,
+    "lng": 37.5,
+    "volumeM3": 2,
+    "status": "completed",
+    "price": 3410,
+    "priceBreakdown": {
+      "base": 2400,
+      "km": 700,
+      "weather": 310,
+      "rating": 0,
+      "load": 0,
+      "discount": 0
+    },
+    "discountPct": 0,
+    "score": 5,
+    "createdAt": "2026-11-02T07:00:00.000Z",
+    "history": [
+      {
+        "status": "new",
+        "at": "2026-11-02T07:00:00.000Z"
+      },
+      {
+        "status": "assigned",
+        "at": "2026-11-02T07:04:00.000Z"
+      },
+      {
+        "status": "accepted",
+        "at": "2026-11-02T07:09:00.000Z"
+      },
+      {
+        "status": "en_route",
+        "at": "2026-11-02T07:18:00.000Z"
+      },
+      {
+        "status": "on_site",
+        "at": "2026-11-02T07:45:00.000Z"
+      },
+      {
+        "status": "completed",
+        "at": "2026-11-02T08:20:00.000Z"
+      }
+    ],
+    "supportNote": ""
+  }
+]
