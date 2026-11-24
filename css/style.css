@@ -189,6 +189,7 @@ h1, h2, h3, p { margin-top: 0; }
 .order-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; }
 .order-actions--single { grid-template-columns: 1fr; }
 .order-actions .btn { width: 100%; }
+.order-confirm__text { grid-column: 1 / -1; margin: 0 0 4px; font-size: .9rem; }
 .btn--danger { background: var(--surface); border-color: var(--error); color: var(--error); }
 .notice { margin: 12px 0 0; padding: 10px 12px; border-left: 4px solid var(--brown); border-radius: 8px; background: #FFF4E5; }
 

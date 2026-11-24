@@ -18,7 +18,7 @@ const STATUS_LABELS = {
 const priceFormatter = new Intl.NumberFormat('ru-RU');
 
 export async function renderHome(container) {
-  // ДОПУЩЕНИЕ: город для демо — Москва (PLAN.md, вопрос Q-01).
+  // ДОПУЩЕНИЕ: город для демо — Воронеж (PLAN.md, вопрос Q-01).
   const user = getUser();
   const [services, drivers, latestOrder] = await Promise.all([
     api.getServices(),
@@ -28,7 +28,7 @@ export async function renderHome(container) {
 
   container.innerHTML = `
     <section class="hero">
-      <p class="hero__eyebrow">Москва · откачка септиков и ям</p>
+      <p class="hero__eyebrow">Воронеж · откачка септиков и ям</p>
       <h1>Ассенизатор приедет по адресу</h1>
       <p>Укажите адрес и объём — система сама назначит свободную машину. Стоимость увидите до заказа, оплата наличными водителю.</p>
       <a class="btn btn--accent" href="#/order">Вызвать машину</a>

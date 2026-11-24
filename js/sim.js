@@ -12,9 +12,9 @@ const EN_ROUTE_STEP = 0.2;
 const TURN_STEP = 0.04;
 const ACTIVE_STATUSES = new Set(['assigned', 'accepted', 'en_route', 'on_site']);
 
-// ДОПУЩЕНИЕ: центр карты и симуляции — Москва (PLAN.md, вопрос Q-01).
-const CENTER = { lat: 55.7558, lng: 37.6173 };
-const BOUNDS = { minLat: 55.55, maxLat: 55.95, minLng: 37.35, maxLng: 37.95 };
+// ДОПУЩЕНИЕ: центр карты и симуляции — Воронеж (PLAN.md, вопрос Q-01).
+const CENTER = { lat: 51.6608, lng: 39.2003 };
+const BOUNDS = { minLat: 51.55, maxLat: 51.78, minLng: 39.05, maxLng: 39.35 };
 
 let timer = null;
 let tickMs = TICK_MS;

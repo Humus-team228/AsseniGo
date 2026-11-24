@@ -8,31 +8,22 @@ const SUPPORT_TEL = '88000000000';
 // Порог блокировки лежит в tariffs.json; здесь только запасное значение для подписи.
 const DEFAULT_THRESHOLD = 3.5;
 const ACTIVE_STATUSES = ['assigned', 'accepted', 'en_route', 'on_site'];
-const STATUS_LABELS = {
-  assigned: 'Назначен',
-  accepted: 'Принят',
-  en_route: 'В пути',
-  on_site: 'На объекте',
-};
+const STATUS_LABELS = { assigned: 'Назначен', accepted: 'Принят', en_route: 'В пути', on_site: 'На объекте' };
 const NEXT_STEP = {
   accepted: { action: 'en_route', label: 'В пути' },
   en_route: { action: 'on_site', label: 'На объекте' },
   on_site: { action: 'complete', label: 'Завершить' },
 };
-const STATUS_ACTIONS = {
-  accept: 'accepted',
-  en_route: 'en_route',
-  on_site: 'on_site',
-};
+const STATUS_ACTIONS = { accept: 'accepted', en_route: 'en_route', on_site: 'on_site' };
 
 export async function renderDriver(container) {
   const user = getUser();
   const tariffs = await api.getTariffs();
   const threshold = Number(tariffs && tariffs.blockThreshold) || DEFAULT_THRESHOLD;
-
   let driver = await loadDriver(user.id);
   let orders = await api.getOrders();
   let actionBusy = false;
+  let confirmOrderId = null;
   let blockedShown = false;
   let stopped = false;
 
@@ -47,7 +38,6 @@ export async function renderDriver(container) {
   }
 
   mount();
-
   const unsubscribe = subscribeData(onData);
   container.addEventListener('click', onClick);
   return () => {
@@ -62,7 +52,6 @@ export async function renderDriver(container) {
 
   function mount() {
     blockedShown = Boolean(driver.blocked);
-
     if (driver.blocked) {
       container.innerHTML = `
         <section class="empty">
@@ -158,7 +147,6 @@ export async function renderDriver(container) {
   function buildOrderCard(order) {
     const item = document.createElement('li');
     item.className = 'card order-card';
-
     const head = document.createElement('div');
     head.className = 'order-card__head';
     const title = document.createElement('h3');
@@ -179,6 +167,15 @@ export async function renderDriver(container) {
     const box = document.createElement('div');
     box.className = 'order-actions';
 
+    if (order.status === 'assigned' && confirmOrderId === order.id) {
+      const text = document.createElement('p');
+      text.className = 'order-confirm__text';
+      text.textContent = 'Отказаться от заказа? Рейтинг снизится на 0.3, заказ уйдёт другой машине.';
+      box.append(text,
+        makeButton('Да, отказаться', 'refuse-confirm', order.id, 'btn btn--danger'),
+        makeButton('Оставить', 'refuse-cancel', order.id, 'btn btn--ghost'));
+      return box;
+    }
     if (order.status === 'assigned') {
       box.append(
         makeButton('Принять', 'accept', order.id, 'btn btn--primary'),
@@ -206,7 +203,6 @@ export async function renderDriver(container) {
   async function onClick(event) {
     const button = event.target.closest('button[data-action]');
     if (!button || actionBusy) return;
-
     actionBusy = true;
     button.disabled = true;
     try {
@@ -221,9 +217,17 @@ export async function renderDriver(container) {
   }
 
   async function runAction(action, orderId) {
+    if (action === 'refuse' || action === 'refuse-cancel') {
+      confirmOrderId = action === 'refuse' ? orderId : null;
+      renderFeed();
+      return null;
+    }
+    if (action === 'refuse-confirm') {
+      confirmOrderId = null;
+      return refuseOrder(orderId);
+    }
     if (STATUS_ACTIONS[action]) return api.setOrderStatus(orderId, STATUS_ACTIONS[action]);
     if (action === 'complete') return completeOrder(orderId);
-    if (action === 'refuse') return refuseOrder(orderId);
     return null;
   }
 
@@ -244,10 +248,6 @@ export async function renderDriver(container) {
   async function refuseOrder(orderId) {
     const order = orders.find((item) => item.id === orderId);
     if (!order) return;
-    const confirmed = window.confirm(
-      'Отказаться от заказа? Рейтинг снизится на 0.3, заказ уйдёт другой машине.',
-    );
-    if (!confirmed) return;
 
     const penalty = applyRefusal(driver, threshold);
     await api.updateDriver(driver.id, {
