@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cl-1",
+    "name": "Анна Иванова",
+    "phone": "+7 900 000-00-01",
+    "completedOrders": 12
+  },
+  {
+    "id": "cl-2",
+    "name": "Олег Фёдоров",
+    "phone": "+7 900 000-00-02",
+    "completedOrders": 6
+  },
+  {
+    "id": "cl-3",
+    "name": "Мария Белова",
+    "phone": "+7 900 000-00-03",
+    "completedOrders": 4
+  },
+  {
+    "id": "cl-4",
+    "name": "Игорь Лебедев",
+    "phone": "+7 900 000-00-04",
+    "completedOrders": 4
+  },
+  {
+    "id": "cl-5",
+    "name": "Елена Новикова",
+    "phone": "+7 900 000-00-05",
+    "completedOrders": 3
+  },
+  {
+    "id": "cl-6",
+    "name": "Тимур Ахметов",
+    "phone": "+7 900 000-00-06",
+    "completedOrders": 3
+  }
+]
